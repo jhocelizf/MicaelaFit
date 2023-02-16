@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 80px;
+    background-color: $second-color;
+
+    .logo {
+        max-width: 5rem;
+        width: 180px;
+        height: 100px;
+    }
+
+    .nav-list {
+        list-style-type: none;
+        display: flex;
+        gap: 1rem;
+        padding-top: 10px;
+
+    li a {
+        margin: 5px;
+        text-decoration: none;
+        color: black;
+    }
+    }
+
+    .abrir-menu,
+    .cerrar-menu {
+        display: none;
+    }
+}

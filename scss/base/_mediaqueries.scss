@@ -1,0 +1,205 @@
+// MEDIA QUERIS INDEX
+@media screen and (max-width:1024px){
+    
+    .main .container_tarjetas .tarjetas{
+        height: 600px;
+    }
+    .main .acerca-de div p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header .abrir-menu{
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+        color: #1c1c1c;
+    }
+    .header .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+        color: #ececec;
+    }
+
+    .header .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $third-color;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+
+    .header .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .header .nav-list {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .header .nav-list li a {
+        color: #ecececec;
+    }
+    .main .container_tarjetas{
+        flex-direction: column;
+    }
+    .main .container_tarjetas .tarjetas{
+        width: 450px;
+        height: 390px;
+    }
+    .main .acerca-de div{
+        width: 400px;
+    }
+    .main .acerca-de div h5{
+        font-size: 20px;
+    }
+    .main .acerca-de div p{
+        font-size: 12px;
+    }
+    .main .acerca-de .img-acerca {
+        width: 200px;
+        height: 300px; }
+        .main .acerca-de .img-acerca img {
+            width: 200px;
+            height: 300px;
+            margin-left: 30px;
+            margin-right: 8px;
+        }
+        .main .carousel{
+            width: 400px;
+        }
+        .main .carousel .carousel-inner .carousel-item {
+            width: 400px; 
+        }
+        .main .carousel .carousel-inner .carousel-item img {
+            width: 400px;
+            height: 300px;
+        }
+    .footer-caja .footer-titulo h2 {
+        font-size: 15px;
+        margin-top: 8px;
+        margin-bottom: 13px; }
+    .footer-caja .footer-redes a img {
+            width: 26px;
+            height: 26px;
+        }
+    }
+
+
+@media screen and (max-width:480px) {
+    .header .nav .nav-container div img{
+        width: 100px;
+        height: 100px;
+    }
+    .main .hero div h1 {
+        font-size: 35px;
+    }
+    .main .hero div h2 {
+        font-size: 25px;
+    }
+    .main .titulo-planes h2{
+        font-size: 30px;
+    }
+    .main .container_tarjetas .tarjetas .contenido h3 {
+        font-size: 18px;
+    }
+    .main .container_tarjetas .tarjetas .contenido ul li{
+        font-size: 15px;
+    }
+    .main .container_tarjetas .tarjetas{
+        width: 300px;
+        height: 430px;
+    }
+    .main .container_tarjetas .tarjetas .contenido a{
+        padding: 10px;
+    }
+    .main .acerca-de {
+        flex-direction: column;
+    }
+    .main .acerca-de div{
+        width: 100%;
+    }
+    .main .acerca-de div h5{
+        font-size: 18px;
+        text-align: center;
+    }
+    .main .acerca-de div p{
+        font-size: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+    .main .acerca-de .img-acerca {
+        width: 180px;
+        height: 220px; }
+        .main .acerca-de .img-acerca img {
+            width: 180px;
+            height: 220px;
+            margin: 0;
+        }
+    .main .resultados-carrusel h3{
+        font-size: 30px;
+    }
+    .main .carousel{
+        width: 300px;
+    }
+    .main .carousel .carousel-inner .carousel-item {
+        width: 300px; 
+    }
+    .main .carousel .carousel-inner .carousel-item img {
+        width: 300px;
+        height: 300px;
+    }
+        .footer-caja .footer-titulo h2 {
+            font-size: 14px;
+            margin-top: 8px;
+            margin-bottom: 13px; }
+        .footer-caja .footer-copy p {
+            font-size: 12px;
+            }
+        .footer-caja .footer-redes a img {
+                width: 24px;
+                height: 24px;
+            }
+}
+
+// MEDIA QUERIS FORMULARIO
+@media screen and (max-width:1024px){
+    .main .formulario{
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .main .formulario{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .main .formulario{
+        width: 350px;
+    }
+    .main .formulario div h3{
+        font-size: 20px;
+    }
+    .main .formulario div form h4 {
+        font-size: 15px;
+    }
+}
