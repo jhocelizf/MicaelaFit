@@ -116,6 +116,10 @@
     .main .titulo-planes h2{
         font-size: 30px;
     }
+
+    .main .container_tarjetas .contenido {
+        height: 500px;
+    }
     .main .container_tarjetas .tarjetas .contenido h3 {
         font-size: 18px;
     }
@@ -124,7 +128,7 @@
     }
     .main .container_tarjetas .tarjetas{
         width: 300px;
-        height: 430px;
+        height: 500px;
     }
     .main .container_tarjetas .tarjetas .contenido a{
         padding: 10px;
