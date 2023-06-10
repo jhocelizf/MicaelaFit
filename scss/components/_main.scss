@@ -1,4 +1,4 @@
-// INDEZ
+// INDEX
 .main {
     .hero {
         width: 100%;
@@ -16,11 +16,14 @@
                 color: #ffff;
                 font-size: 45px;
                 font-weight: 600;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                letter-spacing: 2px;
             }
 
             h2 {
                 color: #ffff;
                 font-size: 40px;
+                font-family:Georgia, 'Times New Roman', Times, serif;
             }
         }
     }
@@ -331,3 +334,8 @@
 }
 }
 
+//RETOS
+.retos{
+    display: flex;
+    flex-direction:column;
+}

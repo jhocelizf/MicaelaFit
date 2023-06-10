@@ -44,10 +44,13 @@
   .main .hero div h1 {
     color: #ffff;
     font-size: 45px;
-    font-weight: 600; }
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px; }
   .main .hero div h2 {
     color: #ffff;
-    font-size: 40px; }
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
 
 .main .titulo-planes h2 {
   font-size: 45px;
@@ -285,6 +288,10 @@
         font-size: 15px;
         list-style-type: none;
         margin-bottom: 15px; }
+
+.retos {
+  display: flex;
+  flex-direction: column; }
 
 .footer-caja {
   width: 100%;
